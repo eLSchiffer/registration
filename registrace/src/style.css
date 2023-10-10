@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .container {
@@ -19,6 +19,7 @@ header {
   flex-direction: column;
   align-items: center;
   margin-top: 4rem;
+  margin-bottom: 200px;
 }
 
 .logo {
@@ -30,4 +31,12 @@ header {
 
 .caps {
   text-transform: uppercase;
+  color: #49646f;
+}
+
+.contain {
+  position: absolute;
+  left: calc(50% - 145px);
+  top: 250px;
+  transform: scale(0.7);
 }

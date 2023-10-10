@@ -1,40 +1,40 @@
 .nice {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
 }
 
 .button {
-    padding: 10px;
-    padding-top: 7.5px;
-    padding-bottom: 7.5px;
-    width: fit-content;
-    background-color: #49646F;
-    border-radius: 10px;
-    border-width: 0px;
-    margin-top: 20px;
-    color: aliceblue;
+  padding: 10px;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  width: fit-content;
+  background-color: #49646f;
+  border-radius: 10px;
+  border-width: 0px;
+  margin-top: 20px;
+  color: aliceblue;
 }
 
 input {
-    background-color: #49646F;
-    border-width: 0px;
-    width: 300px;
-    padding: 10px;
-    border-radius: 10px;
+  background-color: #49646f;
+  border-width: 0px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 ::placeholder {
-    color: rgb(213, 220, 225);
+  color: rgb(213, 220, 225);
 }
 
 .background {
-
-    padding: 25px;
-    border-radius: 25px;
-    width: fit-content;
-    position: sticky;
-    margin: auto;
-    box-shadow: 1px 5px 10px 1px #49646F;
+  padding: 25px;
+  border-radius: 25px;
+  width: fit-content;
+  position: sticky;
+  margin: auto;
+  padding-top: 100px;
+  box-shadow: 1px 5px 10px 1px #49646f;
 }
