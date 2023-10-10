@@ -1,0 +1,73 @@
+.contain {
+  display: flex;
+  position: absolute;
+  left: calc(50% - 145px);
+  top: 250px;
+  transform: scale(0.7);
+}
+
+.big_C {
+  position: relative;
+  border-radius: 50%;
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  box-shadow: 1px 1px 5px 5px #49646f;
+}
+.small_C {
+  position: relative;
+  left: -175px;
+  top: 25px;
+  border-radius: 50%;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  box-shadow: 1px 1px 5px 5px #49646f;
+}
+.white {
+  position: relative;
+  top: 35px;
+  left: -75px;
+  background-color: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.head {
+  position: relative;
+  top: 15px;
+  left: 10px;
+  border-radius: 50%;
+  background-color: #49646f;
+  width: 30px;
+  height: 30px;
+}
+.body {
+  display: flex;
+  position: relative;
+  left: -275px;
+  top: 10px;
+}
+.arm {
+  position: absolute;
+  background-color: aliceblue;
+  width: 2px;
+  height: 30px;
+}
+.shoulders {
+  position: relative;
+  top: 75px;
+  left: -12px;
+  background-color: #49646f;
+  width: 75px;
+  height: 50px;
+  border-radius: 100% 100% 0 0;
+}
+.left {
+  top: 100px;
+  left: 50px;
+}
+.right {
+  top: 100px;
+  left: 0px;
+}
